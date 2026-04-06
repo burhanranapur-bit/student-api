@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/student-api.git'
+                    url: 'https://github.com/burhanranapur-bit/student-api.git'
             }
         }
 
